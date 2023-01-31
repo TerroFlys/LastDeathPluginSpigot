@@ -15,3 +15,6 @@ permissions:
   lastdeath.command.lastdeath:
     description: Allows lastdeath command
     default: true
+  lastdeath.notify:
+    description: Allows lastdeath notify
+    default: true
