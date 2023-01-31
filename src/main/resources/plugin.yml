@@ -1,0 +1,17 @@
+name: Lastdeath
+version: '${project.version}'
+main: com.terroflys.lastdeath.Lastdeath
+api-version: 1.19
+prefix: Last Death
+authors: [ TerroFlys ]
+description: Send the player a message upon dead with the coordinates where they died.
+website: https://www.terroflys.com/
+commands:
+  lastdeath:
+    description: See last death location
+    usage: /<command>
+    permission: lastdeath.command.lastdeath
+permissions:
+  lastdeath.command.lastdeath:
+    description: Allows lastdeath command
+    default: true
